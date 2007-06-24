@@ -1,0 +1,3 @@
+export(mreg, paper, unity)
+S3method(print, mreg)
+S3method(summary, mreg)

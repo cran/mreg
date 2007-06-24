@@ -1,0 +1,14 @@
+chop                    Internal functions for the mreg package
+mreg                    To perform regression when discrete outcome
+                        variables are missing
+mreg-package            Implements the techniques of exact likelihood
+                        when the discrete outcome can be missing in a
+                        regression model.
+paper                   An example of a function to calculate the
+                        effect on the location that depends on previous
+                        outcome in an mreg model
+print.mreg              Prints the coefficients from an mreg object
+radiology               A longitudinal data set
+summary.mreg            Prints a summary of an mreg object
+unity                   The default value of 'modify' function in
+                        'mreg'
