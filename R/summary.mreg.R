@@ -1,9 +1,29 @@
-"summary.mreg" <-
-function (object, digits = max(3, getOption("digits") - 3), symbolic.cor = object$symbolic.cor, 
-    signif.stars = getOption("show.signif.stars"), ...) 
+#'  Prints a summary of an mreg object
+#'
+#'  @description Similar to \code{\link{summary.glm}}, it prints the coefficients,
+#' standard errors, Wald tests, residuals (if available) and dispersion from
+#' an \code{\link{mreg}} object.
+#'
+#' @param object An \code{\link{mreg}} object
+#' @inheritParams stats::summary.lm
+#' @returns prints to output a description of the fitted model.
+#'
+#' @importFrom stats pnorm printCoefmat
+#' @seealso  \code{\link{mreg}} \code{\link{print.mreg}}
+#' @keywords print
+#' @export
+
+
+
+
+
+
+summary.mreg <- function (object, digits = max(3, getOption("digits") - 3),
+                          symbolic.cor = object$symbolic.cor,
+    signif.stars = getOption("show.signif.stars"), ...)
 {
     cat("\nCall:\n")
-    cat(paste(deparse(object$call), sep = "\n", collapse = "\n"), 
+    cat(paste(deparse(object$call), sep = "\n", collapse = "\n"),
         "\n\n", sep = "")
     #cat("\nResiduals:\n")
     #print(quantile(object$residuals,na.rm=TRUE))
@@ -32,12 +52,12 @@ if(!is.null(object$nuisance)){
   coefs <- rbind(coefs, nuis)
 }
 
-    
-    
-  
- 
-	
-printCoefmat(coefs,digits = digits, signif.stars = signif.stars, 
+
+
+
+
+
+printCoefmat(coefs,digits = digits, signif.stars = signif.stars,
             na.print = "NA", ...)
 cat("\n\nDeviance:  ", object$deviance,"\n\n")
 
