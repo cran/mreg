@@ -3,6 +3,7 @@
 \docType{package}
 \name{mreg_package}
 \alias{mreg_package}
+\alias{mreg-package}
 \title{mreg: Implements the techniques of exact likelihood when the discrete outcome can be missing in a regression mode}
 \description{
 Implements the methods described in Bond S, Farewell V, 2006, Exact Likelihood Estimation for a

@@ -1,6 +1,6 @@
-477681bf824b58d80abca6c715c57dda *DESCRIPTION
+3b553ce987242dff3964acefaa041934 *DESCRIPTION
 36222ca54b276d876a2d4a6e6e1274fc *NAMESPACE
-85c61575927cd5d692e1f6bd89534364 *NEWS.md
+9cf48b37ab92967dcd601e75ff66712e *NEWS.md
 fd306ff5089d576cd6b3f672903a49c4 *R/chop.R
 a5b6d9e988b206ac94cb7b088afc776b *R/densityfn.R
 6c7b45d3785ca1ec5770b7fdf0deceaf *R/family.dim.R
@@ -11,8 +11,8 @@ d2fac34e3168e5a2a3e9afc6f49ead0c *R/linkfn.R
 ba8651c75bb46b94004e70c562246b7d *R/logLik2.R
 f85d9d151df36edca062092d7d6eac55 *R/minimand.R
 b397260c379af2b9165fec7d483e879e *R/minimand2.R
-6a262222ed8bc453e07c697eae3a0c8a *R/mreg.R
-65ec294202ce62f4d7809253e545f275 *R/mreg_package.R
+2462a26c141adc3d182b353f5d8ef7c3 *R/mreg.R
+3883e39072dbac962c3cad00862cb71d *R/mreg_package.R
 d8f8fb204506a54b405c8a2adb9533e4 *R/paper.R
 2c14eaa64075eb971874192447fc6f47 *R/print.mreg.R
 aaf0b059c476b0520d47664bb4d3dcff *R/public.R
@@ -23,8 +23,8 @@ f9ff499bf870b6a6e64be8cec4a1089d *README.md
 6891d05fc4235e86b843394300f7ae66 *data/public.rda
 74267f6dcb887fa8ab866eeb7c970c32 *man/densityfn.Rd
 fbf4e6b8257f99653432286c7d9a6362 *man/form.add.Rd
-4c9cea764a147b0d55adc9d9da74265c *man/mreg.Rd
-71eb8638e06ce1c42f9793a84df5d43a *man/mreg_package.Rd
+04a1f4a9ec596bb813ebd8a8053088aa *man/mreg.Rd
+3e0bf44ad04789b3317975d72ddbac4d *man/mreg_package.Rd
 78663a6e78d271905aca0cce9d359515 *man/paper.Rd
 a66e3bd31b7d89db1c794795c845af27 *man/print.mreg.Rd
 67aa183810a6b2e8f7a00775dfa75012 *man/public.Rd

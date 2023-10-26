@@ -9,5 +9,6 @@
 #'
 #' @docType package
 #' @name mreg_package
+#' @aliases mreg-package
 NULL
 #> NULL

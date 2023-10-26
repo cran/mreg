@@ -87,9 +87,9 @@ estimation of a regression model if the outcome variable is discrete.
 }
 \examples{
 	data(public)
+\dontrun{
 mod1 <- mreg( damaged~offset(log(intervisit.time))+esr.init,
 data=public,patid=ptno,print.level=2, iterlim=1000 )
-\dontrun{
 mod.ncar <-mreg(damaged ~ offset(log(intervisit.time)) + esr.init +
          tender + effused + clinic.time, data = public, patid = ptno,
          modify = paper, modify.p = 5, mod.formula = ~art.dur.init,

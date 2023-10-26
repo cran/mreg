@@ -1,3 +1,8 @@
+# mreg 1.2.1
+
+Changing the contact email.  Adding a mreg-package alias to the documentation.
+
+
 # mreg 1.2
 
 * Updating the documentation to use ROxygen
